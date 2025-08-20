@@ -1,9 +1,6 @@
 
 # isaac gym库存在问题，一定要先import pinocchio再import isaacgym
-import pinocchio
 import os
-import pink
-from pink.tasks import FrameTask
 from isaacgym import gymapi
 from isaacgym import gymutil
 from isaacgym import gymtorch
